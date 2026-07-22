@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-This project presents a comprehensive analysis of pizza sales using **Microsoft Excel** and **SQL**. The goal is to transform raw transactional data into meaningful business insights through data cleaning, KPI calculations, SQL queries, and an interactive dashboard.
+This project presents a comprehensive analysis of pizza sales using **Microsoft Excel** and **SQL**. The objective is to transform raw transactional data into meaningful business insights through data cleaning, KPI calculations, SQL analysis, and an interactive Excel dashboard.
 
-The dashboard enables stakeholders to monitor sales performance, identify customer ordering patterns, evaluate product performance, and make informed business decisions.
+The dashboard helps stakeholders monitor sales performance, identify customer ordering patterns, evaluate product performance, and support data-driven business decisions.
 
 ---
 
@@ -24,7 +24,7 @@ This project answers these questions using SQL analysis and Excel visualization.
 
 ---
 
-# 🛠 Tools Used
+# 🛠️ Tools & Technologies
 
 - Microsoft Excel
 - SQL
@@ -37,59 +37,59 @@ This project answers these questions using SQL analysis and Excel visualization.
 
 # 📊 Dashboard Preview
 
-![Pizza Sales Dashboard](Pizza%20Sales%20Dashboard.png)
+> Click the image below to view it in full size.
+
+[![Pizza Sales Dashboard](Pizza%20Sales%20Dashboard.png)](Pizza%20Sales%20Dashboard.png)
 
 ---
 
 # 📈 Key Performance Indicators (KPIs)
 
 | KPI | Value |
-|------|-------:|
-| Total Revenue | $65,160 |
-| Average Order Value | $38.67 |
-| Total Pizzas Sold | 3,961 |
-| Total Orders | 1,685 |
-| Average Pizzas Per Order | 2.35 |
+|------|------:|
+| **Total Revenue** | **$65,160** |
+| **Average Order Value** | **$38.67** |
+| **Total Pizzas Sold** | **3,961** |
+| **Total Orders** | **1,685** |
+| **Average Pizzas Per Order** | **2.35** |
 
 ---
 
 # 📌 Dashboard Features
 
-The dashboard includes the following analyses:
-
-### Revenue Analysis
+### 📌 Revenue Analysis
 
 - Total Revenue
 - Average Order Value
 
-### Sales Performance
+### 📌 Sales Performance
 
 - Total Orders
 - Total Pizzas Sold
 - Average Pizzas Per Order
 
-### Trend Analysis
+### 📌 Trend Analysis
 
 - Daily Trend for Total Orders
 - Hourly Trend for Total Orders
 
-### Product Analysis
+### 📌 Product Analysis
 
 - Top 5 Best Selling Pizzas
 - Bottom 5 Worst Selling Pizzas
 
-### Category Analysis
+### 📌 Category Analysis
 
-- Sales by Pizza Category
-- Sales by Pizza Size
+- Percentage of Sales by Pizza Category
+- Percentage of Sales by Pizza Size
 - Total Pizza Sold by Category
 
-### Interactive Dashboard
+### 📌 Interactive Dashboard
 
+- Timeline Slicer
 - Monthly Filter
 - Dynamic Charts
 - KPI Cards
-- Timeline Slicer
 
 ---
 
@@ -102,80 +102,92 @@ The project includes SQL queries for:
 - Total Orders
 - Total Pizzas Sold
 - Average Pizzas Per Order
-- Daily Order Trends
-- Hourly Order Trends
+- Daily Trend Analysis
+- Hourly Trend Analysis
 - Sales Percentage by Pizza Category
 - Sales Percentage by Pizza Size
-- Category-wise Pizza Sales
-- Top 5 Best Sellers
-- Bottom 5 Worst Sellers
+- Total Pizza Sold by Category
+- Top 5 Best Selling Pizzas
+- Bottom 5 Worst Selling Pizzas
 
 ---
 
 # 📈 Key Insights
 
-### Sales Trends
+### 📅 Sales Trends
 
 - Friday records the highest number of customer orders.
-- Lunch (12 PM–1 PM) and evening (5 PM–7 PM) are the busiest ordering periods.
+- Customer demand is highest during lunch hours (12 PM–1 PM) and evening hours (5 PM–7 PM).
 
-### Product Performance
+### 🍕 Product Performance
 
-- The **Classic** pizza category contributes the highest number of orders.
-- **Large** pizzas account for the largest share of sales.
-- **The Pepperoni Pizza** is the best-selling pizza based on quantity sold.
-- **The Brie Carre Pizza** is the lowest-selling product.
+- The **Classic** category contributes the highest number of total orders.
+- **Large** pizzas account for the highest percentage of sales.
+- **The Pepperoni Pizza** is the best-selling pizza by quantity sold.
+- **The Brie Carre Pizza** is the lowest-selling pizza.
 
-### Business Performance
+### 💰 Business Performance
 
-- The restaurant generated **$65,160** in total revenue.
+- Total Revenue generated: **$65,160**
+- Average customer spending per order: **$38.67**
 - Customers purchase an average of **2.35 pizzas per order**.
-- The average customer spends **$38.67** per order.
 
 ---
 
 # 💡 Business Recommendations
 
-Based on the analysis:
-
-- Increase inventory during Friday evenings and weekend peak hours.
-- Promote high-performing pizzas through combo offers.
-- Re-evaluate low-performing pizzas such as **The Brie Carre Pizza**.
-- Continue promoting Large-size pizzas since they generate the highest sales.
-- Introduce targeted marketing campaigns during off-peak hours.
+- Increase inventory during weekends, especially Friday evenings.
+- Promote best-selling pizzas using combo offers and discounts.
+- Review or redesign low-performing pizzas such as **The Brie Carre Pizza**.
+- Continue promoting Large-size pizzas since they contribute the highest sales.
+- Introduce marketing campaigns during non-peak hours to increase sales.
 
 ---
 
-# 📂 Dataset
+# 📂 Project Files
 
-The dataset used for this project can be accessed here:
+## 📁 Dataset (Excel)
 
-**📁 Pizza Sales Dataset**
+➡️ **Download Dataset**
 
-[pizza_sales excel file.xlsx](https://github.com/SkYy-06/Pizza-Sales-Analysis/blob/main/pizza_sales%20excel%20file.xlsx)
+[pizza_sales excel file.xlsx](./pizza_sales%20excel%20file.xlsx)
 
 ---
 
-# 🖼 Dashboard Image
+## 📄 Dataset (CSV)
 
-View the dashboard here:
+➡️ **Download CSV Dataset**
 
-**📊 Pizza Sales Dashboard**
+[pizza_sales.csv](./pizza_sales.csv)
 
-[Pizza Sales Dashboard](https://github.com/SkYy-06/Pizza-Sales-Analysis/blob/main/Pizza%20Sales%20Dashboard.png)
+---
+
+## 📜 SQL Queries
+
+➡️ **Download SQL Queries**
+
+[PIZZA SALES SQL QUERIES.docx](./PIZZA%20SALES%20SQL%20QUERIES.docx)
+
+---
+
+## 🖼 Dashboard
+
+➡️ **View Dashboard**
+
+[Pizza Sales Dashboard.png](./Pizza%20Sales%20Dashboard.png)
 
 ---
 
 # 📁 Repository Structure
 
-```
-Pizza-Sales-Analysis
+```text
+Pizza-Sales-Analysis-Dashboard
 │
 ├── README.md
-├── pizza_sales.sql
-├── pizza_sales excel file.xlsx
 ├── Pizza Sales Dashboard.png
-└── Images
+├── pizza_sales excel file.xlsx
+├── pizza_sales.csv
+└── PIZZA SALES SQL QUERIES.docx
 ```
 
 ---
@@ -184,13 +196,26 @@ Pizza-Sales-Analysis
 
 - SQL Query Writing
 - Data Cleaning
+- Data Analysis
 - Data Aggregation
 - Pivot Tables
 - KPI Development
-- Dashboard Design
-- Business Analysis
+- Interactive Dashboard Design
+- Business Intelligence
 - Data Visualization
 - Excel Reporting
+
+---
+
+# 📚 Learning Outcomes
+
+Through this project, I strengthened my skills in:
+
+- Writing SQL queries for business analysis
+- Creating KPI-driven dashboards
+- Analyzing sales trends and customer behavior
+- Building interactive Excel dashboards using Pivot Tables, Charts, and Slicers
+- Presenting analytical findings through business insights and recommendations
 
 ---
 
@@ -198,8 +223,14 @@ Pizza-Sales-Analysis
 
 **Aakash Diwakar**
 
-GitHub: https://github.com/SkYy-06
+### GitHub
 
-LinkedIn: *(Add your LinkedIn profile here)*
+https://github.com/SkYy-06
+
+### LinkedIn
+
+*(Add your LinkedIn profile URL here.)*
 
 ---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub.
